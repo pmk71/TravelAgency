@@ -20,7 +20,8 @@ public class BlazeDemoTest1 extends BaseClass{
 	{
 		String etitle = driver.getTitle();
 		String atitle = "Welcome to the Simple Travel Agency!";
-		assertEquals(etitle, atitle,"The title is different");
+		assertNotEquals(etitle, atitle,"The title is different");
+		
 
 
 	}
